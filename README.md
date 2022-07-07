@@ -3,7 +3,7 @@
 
 - Example 1: Just checking if all arguments were passed / defined.
 
-```
+```js
 
 const required = (name) => {
   console.warn(`Parameter is required and its shuld be type of ${name}`);
