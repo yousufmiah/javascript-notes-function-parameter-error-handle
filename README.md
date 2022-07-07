@@ -17,7 +17,7 @@ function add(a = required("number"), b = required("number")) {
 
 #### Or
 
-```
+```js
 
 function add(number1, number2) {
   if (arguments.length < 2) {
