@@ -30,7 +30,7 @@ function add(number1, number2) {
 
 #### Or
 
-```
+```js
 
 function add(number1, number2) {
   if (typeof number1 === "undefined") {
@@ -46,7 +46,7 @@ function add(number1, number2) {
 
 - Example 2: make sure each argument is correct type.
 
-```
+```js
 
 function add(number1, number2) {
   if (isNaN(number1)) {
@@ -62,7 +62,7 @@ function add(number1, number2) {
 
 - Example 3: make sure each argument is defined and of correct type
 
-```
+```js
 
 function add(number1, number2) {
   if (typeof number1 === "undefined" || isNaN(number1)) {
@@ -79,7 +79,7 @@ function add(number1, number2) {
 
 - Example 4: create extarnal function for make sure each argument is defined and of correct type
 
-```
+```js
 
 function handleError() {
   for (let i = 0; i < arguments.length || arguments.length == 0; i++) {
